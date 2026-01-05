@@ -56,7 +56,6 @@ const Footer = () => {
           {/* Engineering Links */}
           <div>
             <h4 className="text-lg font-bold mb-6 text-white flex items-center">
-              <Settings className="w-5 h-5 mr-2 text-blue-400" />
               Engineering
             </h4>
             <ul className="space-y-3">
