@@ -3,7 +3,7 @@ const nextConfig = {
   trailingSlash: false,
   images: {
     unoptimized: true,
-    qualities: [75, 90],
+    qualities: [75, 80, 90],
   },
 }
 
