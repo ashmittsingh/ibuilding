@@ -61,6 +61,11 @@ const Navbar = () => {
 
   const navigation: NavItem[] = [
     {
+      name: "About",
+      href: "/about",
+      icon: <Users className="w-4 h-4" />,
+    },
+    {
       name: "Projects",
       href: "/projects",
       icon: <Building2 className="w-4 h-4" />,
@@ -75,11 +80,6 @@ const Navbar = () => {
       href: "/jobs", 
       icon: <CheckCircle className="w-4 h-4" />, 
       badge: "Hiring"
-    },
-    {
-      name: "About",
-      href: "/about",
-      icon: <Users className="w-4 h-4" />,
     },
   ]
 
