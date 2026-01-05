@@ -1,17 +1,9 @@
 ﻿/** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
+  trailingSlash: false,
   images: {
-    remotePatterns: [
-      {
-        protocol: 'http',
-        hostname: 'localhost',
-      },
-      {
-        protocol: 'https',
-        hostname: 'localhost',
-      },
-    ],
+    unoptimized: true,
+    qualities: [75, 90],
   },
 }
 
